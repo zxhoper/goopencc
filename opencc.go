@@ -26,12 +26,12 @@ var (
 
 func defaultDir() string {
 	if runtime.GOOS == "windows" {
-		return `C:\gocc\`
+		return `C:\goopencc\`
 	}
 	if goPath, ok := os.LookupEnv("GOPATH"); ok {
-		return goPath + "/src/github.com/longbridgeapp/opencc/"
+		return goPath + "/src/github.com/zxhoper/goopencc/"
 	} else {
-		return `/usr/local/share/gocc/`
+		return `/usr/local/share/goopencc/`
 	}
 }
 
