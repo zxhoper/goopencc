@@ -3,7 +3,7 @@ package opencc
 import (
 	"testing"
 
-	"github.com/longbridgeapp/opencc"
+	"github.com/zxhoper/goopencc"
 )
 
 func BenchmarkConvert_s2t_short(b *testing.B) {
